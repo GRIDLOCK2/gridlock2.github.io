@@ -1,15 +1,39 @@
-h1 {
-    color: blueviolet;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
+/* Global */
 img{
     opacity: 1;
     width: 50%;
 }
 
 body{
-    background: url(../img/polonez_car.png);
-    background: greenyellow; 
+    background: url(../img/polonez_car.png); 
+}
+
+/* Navigation */
+a {
+    background: tan;
+    display: inline-block;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+}
+
+li {
+    display: inline;
+}
+
+/* Layout */
+
+/* Typography */
+h1 {
+    color: blue;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+p {
+    font-size: 20px;
+    border: 10px double black;
+    width: 200px;
+    padding: 20px;
+    background: cyan;
 }
