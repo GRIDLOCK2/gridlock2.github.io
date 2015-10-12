@@ -1,5 +1,7 @@
 h1 {
-    color: rgba(0,0,0,.5);
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 img{
@@ -8,5 +10,6 @@ img{
 }
 
 body{
-    background: url(../img/polonez_car.png);   
+    background: url(../img/polonez_car.png);
+    background: greenyellow; 
 }
