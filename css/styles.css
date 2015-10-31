@@ -21,6 +21,10 @@ li {
     display: inline;
 }
 
+ol li {
+    display: block;
+}
+
 /* Layout */
 
 /* Typography */
@@ -36,4 +40,17 @@ p {
     width: 200px;
     padding: 20px;
     background: cyan;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Exo', sans-serif;
+}
+
+p, ul, ol {
+    font-family: 'Molengo', sans-serif;
+}
+
+/* Images */
+.main_img {
+    width: 100%;
 }
