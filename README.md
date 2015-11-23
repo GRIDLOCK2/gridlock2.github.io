@@ -1,2 +1,2 @@
-# gridlock2.github.io
+# tarnold.github.io
 My (awesome) homepage
