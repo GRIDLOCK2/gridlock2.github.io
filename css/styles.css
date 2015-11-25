@@ -5,31 +5,47 @@ img{
 }
 
 body{
-    background: url(../img/polonez_car.png); 
+    background: url(../img/grey_wash_wall.png); 
 }
 
 /* Navigation */
 a {
-    background: tan;
-    display: inline-block;
+    background: lightgray;
+    color: black;
+    
+    display: block;
     text-decoration: none;
-    width: 80px;
+    text-align: center;
+    
     height: 40px;
+    width: 100px;
+    line-height: 40px;
+}
+
+a:hover {
+    background: black;
+    color: white;
+    
+    height: 60px;
 }
 
 li {
-    display: inline;
+/*    display: inline;*/
+    list-style: none;
+    display: inline-block;
 }
 
-ol li {
-    display: block;
+/*li*/
+ol { 
+/*    display: block;*/
+    margin-top: 0;
 }
 
 /* Layout */
 
 /* Typography */
 h1 {
-    color: blue;
+    color: navy;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
