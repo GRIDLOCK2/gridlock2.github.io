@@ -5,49 +5,58 @@ img{
 }
 
 body{
-    background: url(../img/grey_wash_wall.png); 
+    background: url(../img/grey_wash_wall.png);
 }
 
 /* Navigation */
+nav {
+    text-align: center;
+}
+
 a {
-    background: lightgray;
-    color: black;
+    color: white;
+/*    border-left: 5px solid black;*/
     
     display: block;
     text-decoration: none;
     text-align: center;
     
     height: 40px;
-    width: 100px;
+    width: 0 60px;
     line-height: 40px;
 }
 
 a:hover {
-    background: black;
-    color: white;
-    
-    height: 60px;
+    color: black;
 }
 
 li {
-/*    display: inline;*/
+    color: white;
     list-style: none;
     display: inline-block;
-}
-
-/*li*/
-ol { 
-/*    display: block;*/
-    margin-top: 0;
+    font-size: 1.75em;
 }
 
 /* Layout */
+header {
+    position: fixed;
+    background: url(../img/grey_wash_wall.png);
+    border-bottom: 8px solid black;
+    width: 100%;
+    height: 80px;
+    margin-top: -10px;
+}
+
+main {
+    padding-top: 60px;
+}
 
 /* Typography */
 h1 {
     color: navy;
     text-transform: uppercase;
     letter-spacing: 4px;
+    padding: 0 0 0 40px;
 }
 
 p {
