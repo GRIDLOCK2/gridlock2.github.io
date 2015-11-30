@@ -30,6 +30,10 @@ a:hover {
     color: black;
 }
 
+a:visited {
+    color: navy;
+}
+
 li {
     color: white;
     list-style: none;
