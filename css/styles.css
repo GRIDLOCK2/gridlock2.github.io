@@ -13,7 +13,7 @@ nav {
     text-align: center;
 }
 
-a {
+nav a {
     color: white;
 /*    border-left: 5px solid black;*/
     
@@ -26,15 +26,15 @@ a {
     line-height: 40px;
 }
 
-a:hover {
+nav a:hover {
     color: black;
 }
 
-a:visited {
+nav a:visited {
     color: navy;
 }
 
-li {
+nav li {
     color: white;
     list-style: none;
     display: inline-block;
@@ -54,6 +54,15 @@ header {
 
 main {
     padding-top: 60px;
+}
+
+/* Main */
+main li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 1.75em;
+    letter-spacing: 1.6px;
 }
 
 /* Typography */
