@@ -8,30 +8,39 @@ body{
     background: url(../img/grey_wash_wall.png);
 }
 
+hr {
+    color: lightgray;
+    background-color: lightgray;
+    height: 5px;
+    border: 0;
+    width: 100%;
+}
+
 /* Navigation */
 nav {
     text-align: center;
 }
 
-nav a {
+nav a:link {
     color: white;
-/*    border-left: 5px solid black;*/
-    
     display: block;
     text-decoration: none;
     text-align: center;
-    
     height: 40px;
     width: 0 60px;
     line-height: 40px;
+}
+
+nav a:visited {
+    color: blue;
 }
 
 nav a:hover {
     color: black;
 }
 
-nav a:visited {
-    color: navy;
+nav a:active {
+    color: aqua;
 }
 
 nav li {
@@ -75,10 +84,10 @@ h1 {
 
 p {
     font-size: 20px;
-    border: 10px double black;
+    border: 5px solid black;
     width: 200px;
     padding: 20px;
-    background: cyan;
+    background: lightgray;
 }
 
 h1, h2, h3, h4 {
