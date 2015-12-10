@@ -16,6 +16,41 @@ hr {
     width: 100%;
 }
 
+/* Images */
+.main_img {
+    width: 100%;
+}
+
+/* Layout */
+header {
+    position: fixed;
+    background: url(../img/grey_wash_wall.png);
+    border-bottom: 8px solid black;
+    width: 100%;
+    height: 80px;
+    margin-top: -10px;
+}
+
+/* Main */
+main {
+    padding-top: 60px;
+}
+
+main li {
+    color: black;
+    font-size: 1.75em;
+    letter-spacing: 1.6px;
+}
+
+#about_pg h2 {
+    color: black;
+    font-size: 1.6em
+}
+
+#about_pg li {
+    font-size: 1.4em;
+}
+
 /* Navigation */
 nav {
     text-align: center;
@@ -51,29 +86,6 @@ nav li {
     letter-spacing: 1.6px;
 }
 
-/* Layout */
-header {
-    position: fixed;
-    background: url(../img/grey_wash_wall.png);
-    border-bottom: 8px solid black;
-    width: 100%;
-    height: 80px;
-    margin-top: -10px;
-}
-
-main {
-    padding-top: 60px;
-}
-
-/* Main */
-main li {
-    color: white;
-    list-style: none;
-    display: inline-block;
-    font-size: 1.75em;
-    letter-spacing: 1.6px;
-}
-
 /* Typography */
 h1 {
     color: navy;
@@ -96,9 +108,4 @@ h1, h2, h3, h4 {
 
 p, ul, ol {
     font-family: 'Pragati Narrow', sans-serif;
-}
-
-/* Images */
-.main_img {
-    width: 100%;
 }
