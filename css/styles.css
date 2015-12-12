@@ -21,11 +21,6 @@ hr {
     width: 100%;
 }
 
-iframe.personal_media {
-    height: 315px;
-    margin: 0 0 20px 0;
-}
-
 /* Layout */
 header {
     position: fixed;
@@ -34,6 +29,7 @@ header {
     width: 100%;
     height: 80px;
     margin-top: -10px;
+    z-index: 1;
 }
 
 #major_txt {
@@ -63,7 +59,7 @@ main li {
 
 /* About */
 #video_music {
-    padding-left: 110px
+    padding-left: 110px;
 }
 
 /* Resume */
@@ -99,43 +95,26 @@ ul.inner_list li:first-child {
 }
 
 /* Portfolio */
-/*
-.gallery {
-    height: 500px;
+.item h1 {
+    background: url(../img/grey_wash_wall.png);
 }
 
 .gallery .item {
-    right: 0;
-    background: url(../img/grey_wash_wall.png);
+    background: none;
+    height: 500px;
 }
-*/
 
 img.port-select {
-    width: 50px;
+    width: auto;
     height: 50px;
 }
 
 img.port-main {
-/*    position: absolute;*/
-    width: 93%;
-    height: 60%;
+    width: auto;
+    height: auto;
 }
 
 /* Navigation */
-nav {
-    text-align: center;
-}
-
-nav a:link {
-    color: white;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    height: 40px;
-    width: 0 60px;
-    line-height: 40px;
-}
-
 nav a:visited {
     color: blue;
 }
@@ -148,34 +127,100 @@ nav a:active {
     color: aqua;
 }
 
-nav li {
-    color: white;
-    list-style: none;
-    display: inline-block;
-    font-size: 1.75em;
-    letter-spacing: 1.6px;
-}
-
 /* Typography */
-h1 {
-    color: navy;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    padding: 0 0 0 40px;
-}
-
-p {
-    font-size: 20px;
-    border: 5px solid black;
-    width: 200px;
-    padding: 20px;
-    background: lightgray;
-}
-
 h1, h2, h3, h4 {
     font-family: 'Rhodium Libre', serif;
 }
 
 p, ul, ol {
     font-family: 'Pragati Narrow', sans-serif;
+}
+
+@media screen and (min-width: 480px) {
+    p {
+        font-size: 20px;
+        border: 5px solid black;
+        width: 200px;
+        padding: 20px;
+        background: lightgray;
+    }
+    
+    h1 {
+        color: navy;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding: 0 0 0 40px;
+    }
+    
+    nav li {
+        color: white;
+        list-style: none;
+        display: inline-block;
+        font-size: 1.75em;
+        letter-spacing: 1.6px;
+    }
+    
+    nav {
+        text-align: center;
+    }
+
+    nav a:link {
+        color: white;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        height: 40px;
+        width: 0 60px;
+        line-height: 40px;
+    }
+    
+    iframe.personal_media {
+        height: 315px;
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    p {
+        font-size: 20px;
+        border: 5px solid black;
+        width: 200px;
+        padding: 20px;
+        background: lightgray;
+    }
+    
+    h1 {
+        color: navy;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding: 0 0 0 40px;
+    }
+    
+    nav li {
+        color: white;
+        list-style: none;
+        display: inline-block;
+        font-size: 1.2em;
+        letter-spacing: 1.2px;
+    }
+    
+    nav {
+        text-align: right;
+    }
+
+    nav a:link {
+        color: white;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        height: 40px;
+        width: 0 60px;
+        line-height: 40px;
+    }
+    
+    iframe.personal_media {
+        height: 315px;
+        width: auto;
+        margin: 0 0 20px 0;
+    }
 }
