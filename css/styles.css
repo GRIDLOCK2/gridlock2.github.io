@@ -90,6 +90,37 @@ h2.resume {
     font-size: .8em;
 }
 
+.inner_list {
+    font-size: .6em;
+}
+
+ul.inner_list li:first-child {
+    list-style-type: none;
+}
+
+/* Portfolio */
+/*
+.gallery {
+    height: 500px;
+}
+
+.gallery .item {
+    right: 0;
+    background: url(../img/grey_wash_wall.png);
+}
+*/
+
+img.port-select {
+    width: 50px;
+    height: 50px;
+}
+
+img.port-main {
+/*    position: absolute;*/
+    width: 93%;
+    height: 60%;
+}
+
 /* Navigation */
 nav {
     text-align: center;
