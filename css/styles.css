@@ -66,6 +66,30 @@ main li {
     padding-left: 110px
 }
 
+/* Resume */
+h1.resume_head {
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+h2.resume {
+    font-size: 1.5em;
+    border-bottom: 5px solid rgba(0, 0, 0, .4);
+}
+
+#res_body {
+    margin: 0 40px 0 40px;
+}
+
+.res_break {
+    margin-bottom: 70px;;
+}
+
+.res_list {
+    font-size: .8em;
+}
+
 /* Navigation */
 nav {
     text-align: center;
