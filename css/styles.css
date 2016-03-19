@@ -1,11 +1,32 @@
 /* Global */
+  /*  New Nav  */
+#simple-menu-div {
+  float: left;
+  margin-top: 25px;
+  font-size: 1.5em;
+  font-style: none;
+}
+
+#simple-menu-div img {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+#curr-page {
+  padding-left: 30px;
+  float: left;
+}
+
+/*  */
+
 img{
     opacity: 1;
     width: 50%;
 }
 
 body{
-    background: url(../img/grey_wash_wall.png);
+    background: url(https://raw.githubusercontent.com/tarnold93/tarnold93.github.io/master/img/grey_wash_wall.png);
 }
 
 hr {
@@ -24,7 +45,7 @@ hr {
 /* Layout */
 header {
     position: fixed;
-    background: url(../img/grey_wash_wall.png);
+    background: url(https://raw.githubusercontent.com/tarnold93/tarnold93.github.io/master/img/grey_wash_wall.png);
     border-bottom: 8px solid black;
     width: 100%;
     height: 80px;
@@ -96,12 +117,27 @@ ul.inner_list li:first-child {
 
 /* Portfolio */
 .item h1 {
-    background: url(../img/grey_wash_wall.png);
+    background: url(https://raw.githubusercontent.com/tarnold93/tarnold93.github.io/master/img/grey_wash_wall.png);
+}
+
+.gallery {
+    height: 500px;
+}
+
+.gallery .item img {
+  height: 300px;
+  width: 400px;
 }
 
 .gallery .item {
-    background: none;
-    height: 500px;
+  background: none;
+  text-align: center;
+}
+
+.control-item img{
+  border: 5px solid black;
+  height: 50px;
+  width: 50px;
 }
 
 img.port-select {
@@ -114,8 +150,16 @@ img.port-main {
     height: auto;
 }
 
+.item img {
+  width: 400px;  
+}
+
+.controls img {
+  width: 50px;
+}
+
 /* Navigation */
-nav a:visited {
+/* nav a:visited {
     color: blue;
 }
 
@@ -125,7 +169,7 @@ nav a:hover {
 
 nav a:active {
     color: aqua;
-}
+} */
 
 /* Typography */
 h1, h2, h3, h4 {
@@ -152,7 +196,7 @@ p, ul, ol {
         padding: 0 0 0 40px;
     }
     
-    nav li {
+/*     nav li {
         color: white;
         list-style: none;
         display: inline-block;
@@ -172,7 +216,7 @@ p, ul, ol {
         height: 40px;
         width: 0 60px;
         line-height: 40px;
-    }
+    } */
     
     iframe.personal_media {
         height: 315px;
@@ -196,7 +240,7 @@ p, ul, ol {
         padding: 0 0 0 40px;
     }
     
-    nav li {
+/*     nav li {
         color: white;
         list-style: none;
         display: inline-block;
@@ -216,7 +260,7 @@ p, ul, ol {
         height: 40px;
         width: 0 60px;
         line-height: 40px;
-    }
+    } */
     
     iframe.personal_media {
         height: 315px;
